@@ -18,6 +18,18 @@ public class Palindrome {
     }
 
     public static boolean numericPalindrome(int number) {
-        return true;
+        String numToStr = String.valueOf(number);
+        String reverseText = "";
+        for (int i = 0; i < numToStr.length(); i++) {
+            char symbol = numToStr.charAt(i);
+            reverseText = symbol + reverseText;
+        }
+        if (numToStr.equals(reverseText)) {
+            System.out.println("да, палиндром");
+            return true;
+        } else {
+            System.out.println("нет, не палиндром");
+            return false;
+        }
     }
 }
