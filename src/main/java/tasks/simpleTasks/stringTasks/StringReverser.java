@@ -1,4 +1,4 @@
-package tasks.stringTasks;
+package tasks.simpleTasks.stringTasks;
 
 public class StringReverser {
 

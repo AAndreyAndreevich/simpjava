@@ -1,7 +1,9 @@
-import tasks.stringTasks.StringReverser;
+import tasks.simpleTasks.arraysTasks.ArrayListViewer;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println(StringReverser.reverser("курага"));
+        ArrayListViewer.forArray();
+        ArrayListViewer.forIArray();
+        ArrayListViewer.whileArray();
     }
 }
