@@ -6,12 +6,12 @@ public class PrimeNumber {
         if (i == 2) {
             System.out.println("да, " + i + " простое");
             return true;
-        }
-        if (i%2!=0) {
+        } else if (i%2!=0) {
             System.out.println("да, " + i + " простое");
             return true;
+        } else {
+            System.out.println("нет, " + i + " не простое");
+            return false;
         }
-        System.out.println("нет, " + i + " не простое");
-        return false;
     }
 }
