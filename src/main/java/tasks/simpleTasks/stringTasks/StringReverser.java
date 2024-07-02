@@ -13,7 +13,6 @@ public class StringReverser {
             char symbol = text.charAt(i);
             reverseText = symbol + reverseText;
         }
-
         return reverseText;
     }
 }
