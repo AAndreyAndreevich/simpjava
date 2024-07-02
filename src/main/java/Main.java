@@ -1,9 +1,7 @@
-import tasks.simpleTasks.arraysTasks.ArrayListViewer;
+import tasks.simpleTasks.numericTasks.PrimeNumber;
 
 public class Main {
     public static void main(String[] args) {
-        ArrayListViewer.forArray();
-        ArrayListViewer.forIArray();
-        ArrayListViewer.whileArray();
+        PrimeNumber.yesOrNo(0);
     }
 }
