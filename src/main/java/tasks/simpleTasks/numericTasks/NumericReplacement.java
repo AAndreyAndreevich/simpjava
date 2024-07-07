@@ -3,20 +3,20 @@ package tasks.simpleTasks.numericTasks;
 public class NumericReplacement {
 
     //с третьей переменной
-    public static void replace(int a, int b, int c) {
-        System.out.println(a + " " + b + " " + c);
-        a = c;
+    public static String replace(int a, int b) {
+        int c = a;
+        a = b;
         b = c;
-        System.out.println(a + " " + b + " " + c);
+        return a + " " + b;
     }
 
     //без третьей
-    public static void replace2(int a, int b) {
+    public static String replace2(int a, int b) {
         System.out.println(a + " " + b);
         a = a + b;
         b = a - b;
         a = a - b;
-        System.out.println(a + " " + b);
+        return a + " " + b;
     }
 
 }

@@ -6,6 +6,7 @@ public class StringReverser {
     public static StringBuilder reverseByBuilder(String text) {
         return new StringBuilder(text).reverse();
     }
+
     //без него
     public static String reverser(String text) {
         String reverseText = "";
