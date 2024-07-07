@@ -17,6 +17,8 @@ class ArrayListViewerTest {
         testList.add("Четыре");
     }
 
+    //пока не придумал как это проверять, сейчас показывает что принимает списки и отображает их
+
     @Test
     void forIArray() {
         ArrayListViewer.forIArray(testList);
