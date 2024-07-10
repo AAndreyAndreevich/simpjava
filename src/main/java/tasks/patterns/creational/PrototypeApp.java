@@ -30,18 +30,16 @@ public class PrototypeApp {
             return name;
         }
 
-        public Product setName(String name) {
+        public void setName(String name) {
             this.name = name;
-            return this;
         }
 
         public Long getNumber() {
             return number;
         }
 
-        public Product setNumber(Long number) {
+        public void setNumber(Long number) {
             this.number = number;
-            return this;
         }
 
         @Override
