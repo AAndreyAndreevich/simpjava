@@ -74,17 +74,9 @@ public class BuilderApp {
         private Long number;
         private String name;
 
-        public Long getNumber() {
-            return number;
-        }
-
         public Product setNumber(Long number) {
             this.number = number;
             return this;
-        }
-
-        public String getName() {
-            return name;
         }
 
         public Product setName(String name) {
