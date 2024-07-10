@@ -44,8 +44,8 @@ public class FactoryApp {
         }
     }
 
-    static CreatorProduct createProduct(int v) {
-        switch (v) {
+    static CreatorProduct createProduct(int option) {
+        switch (option) {
             case 1 : return new CreatorConcreteProduct1();
             case 2 : return new CreatorConcreteProduct2();
             default : throw new RuntimeException("");

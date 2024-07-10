@@ -25,7 +25,6 @@ public class BuilderApp {
             productBuilder.createProduct();
             productBuilder.buildId();
             productBuilder.buildName();
-
             return productBuilder.getProduct();
         }
     }
