@@ -1,4 +1,4 @@
-package tasks.patterns.creational.factoryPattern;
+package tasks.patterns.creational;
 
 public class FactoryApp {
 

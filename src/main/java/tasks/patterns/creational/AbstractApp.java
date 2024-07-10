@@ -1,4 +1,4 @@
-package tasks.patterns.creational.abstractPattern;
+package tasks.patterns.creational;
 
 public class AbstractApp {
 
