@@ -6,7 +6,7 @@ public class BridgeApp {
         Abstraction rfa = new RefinedAbstraction(new ConcreteImplementor2());
         rfa.absMethod();
         rfa.withImpl();
-        rfa = new RefinedAbstraction(new ConcreteImplementor1());
+        rfa.setImplementor(new ConcreteImplementor1());
         rfa.absMethod();
         rfa.withImpl();
     }
