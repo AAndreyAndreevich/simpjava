@@ -33,8 +33,8 @@ public class CompositeApp {
 
     static class Leaf implements Component{
 
-        private int number;
-        private String name;
+        private final int number;
+        private final String name;
 
         public Leaf(int number, String name) {
             this.number = number;
