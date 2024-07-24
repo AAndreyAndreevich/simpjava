@@ -1,4 +1,4 @@
-package tasks.patterns.creational;
+package patterns.creational;
 
 public class BuilderApp {
 

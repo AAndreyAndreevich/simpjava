@@ -1,4 +1,4 @@
-package tasks.patterns.behavioral;
+package patterns.behavioral;
 
 public class CommandApp {
 

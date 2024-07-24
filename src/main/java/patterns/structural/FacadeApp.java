@@ -1,4 +1,4 @@
-package tasks.patterns.structural;
+package patterns.structural;
 
 public class FacadeApp {
 
