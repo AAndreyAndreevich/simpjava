@@ -2,6 +2,10 @@ package tasks.simpleTasks.mixedTasks;
 
 public class Palindrome {
 
+    /***
+     * определяет является строка или число палиндормом
+     */
+
     public static boolean stringPalindrome(String text) {
         String reverseText = "";
         for (int i = 0; i < text.length(); i++) {
