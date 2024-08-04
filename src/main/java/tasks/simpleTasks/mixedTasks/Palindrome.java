@@ -7,33 +7,18 @@ public class Palindrome {
      */
 
     public static boolean stringPalindrome(String text) {
-        String reverseText = "";
-        for (int i = 0; i < text.length(); i++) {
-            char symbol = text.charAt(i);
-            reverseText = symbol + reverseText;
+        StringBuilder reverseText = new StringBuilder();
+        for (Character s : text.toCharArray()) {
+            reverseText.insert(0, s);
         }
-        if (text.equals(reverseText)) {
-            System.out.println("да, палиндром");
-            return true;
-        } else {
-            System.out.println("нет, не палиндром");
-            return false;
-        }
+        return reverseText.equals(text);
     }
 
     public static boolean numericPalindrome(int number) {
-        String numToStr = String.valueOf(number);
-        String reverseText = "";
-        for (int i = 0; i < numToStr.length(); i++) {
-            char symbol = numToStr.charAt(i);
-            reverseText = symbol + reverseText;
+        StringBuilder reverseNumber = new StringBuilder();
+        for (Character s : String.valueOf(number).toCharArray()) {
+            reverseNumber.insert(0, s);
         }
-        if (numToStr.equals(reverseText)) {
-            System.out.println("да, палиндром");
-            return true;
-        } else {
-            System.out.println("нет, не палиндром");
-            return false;
-        }
+        return reverseNumber.toString().equals(String.valueOf(number));
     }
 }
