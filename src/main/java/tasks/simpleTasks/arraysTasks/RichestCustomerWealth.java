@@ -2,7 +2,7 @@ package tasks.simpleTasks.arraysTasks;
 
 public class RichestCustomerWealth {
 
-    public int maximumWealth(int[][] accounts) {
+    public static int maximumWealth(int[][] accounts) {
         int maxWealthSoFar = 0;
         for (int[] customer : accounts) {
             int currentCustomerWealth = 0;

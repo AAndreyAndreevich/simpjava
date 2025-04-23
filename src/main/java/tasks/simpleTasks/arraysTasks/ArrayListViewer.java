@@ -4,7 +4,7 @@ import java.util.List;
 
 public class ArrayListViewer {
 
-    public void whileArray(List<String> someList) {
+    public static void whileArray(List<String> someList) {
         System.out.println("while (условие)");
         int i = 0;
         while (i < someList.size()) {
@@ -13,7 +13,7 @@ public class ArrayListViewer {
         }
     }
 
-    public void forArray(List<String> someList) {
+    public static void forArray(List<String> someList) {
         System.out.println("for (инициализация;список)");
         for (String s : someList) {
             System.out.println(s);

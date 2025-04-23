@@ -3,7 +3,7 @@ package tasks.simpleTasks.numericTasks;
 public class NumberOfStepsToReduceANumberToZero {
 
     public static void main(String[] args) {
-        NumberOfStepsToReduceANumberToZero.numberOfSteps(9);
+        numberOfSteps(9);
     }
 
     public static int numberOfSteps(int num) {

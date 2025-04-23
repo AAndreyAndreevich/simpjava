@@ -4,7 +4,7 @@ import java.util.HashMap;
 
 public class RansomNote {
 
-    public boolean canConstruct(String ransomNote, String magazine) {
+    public static boolean canConstruct(String ransomNote, String magazine) {
 
         for (int i = 0; i < ransomNote.length(); i++) {
             char r = ransomNote.charAt(i);
@@ -20,7 +20,7 @@ public class RansomNote {
         return true;
     }
 
-    public boolean canConstructHash(String ransomNote, String magazine) {
+    public static boolean canConstructHash(String ransomNote, String magazine) {
 
         HashMap<Character, Integer> magazineLetters = new HashMap<>();
 
